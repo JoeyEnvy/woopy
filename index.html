@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - woopy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .hero {
+            background-image: url('https://source.unsplash.com/random/1200x500');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .about img {
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .service-box {
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .testimonials {
+            background-color: #eee;
+            padding: 20px;
+        }
+        .testimonial {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .about img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>woopy</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Welcome to woopy</h2>
+        </section>
+        <section class="about">
+            <img src="https://source.unsplash.com/random/800x600" alt="About woopy">
+            <h2>About Us</h2>
+            <p>woopy is a trailblazer in the retail industry, bringing a curated collection of unique products that cater to the discerning tastes of our diverse customer base. Our mission is to redefine shopping by delivering an inspiring and personalized experience that resonates with elegance and innovation.</p>
+            <p>Our audience comprises individuals who appreciate quality and distinctiveness in their purchasing choices. We believe in building a community around our brand where each member feels valued and inspired to explore our exclusive offerings.</p>
+            <ul>
+                <li>Dedicated to quality and innovation</li>
+                <li>Customer-centric approach</li>
+                <li>Curated product collections</li>
+                <li>Inspired by modern aesthetics</li>
+            </ul>
+        </section>
+        <section class="services">
+            <div class="service-box">
+                <i class="fas fa-truck fa-2x"></i>
+                <h3>Fast Shipping</h3>
+                <p>Experience rapid delivery with our efficient logistics network.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-user-friends fa-2x"></i>
+                <h3>Customer Support</h3>
+                <p>Our support team is ready to assist you 24/7.</p>
+            </div>
+            <div class="service-box">
+                <i class="fas fa-tags fa-2x"></i>
+                <h3>Exclusive Offers</h3>
+                <p>Enjoy special discounts and exclusive deals.</p>
+            </div>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <i class="fas fa-quote-left"></i>
+                <p>"woopy has transformed my shopping experience. Their unique products and exceptional service are unparalleled."</p>
+                <i class="fas fa-quote-right"></i>
+                <p>- Emma S.</p>
+            </div>
+            <div class="testimonial">
+                <i class="fas fa-quote-left"></i>
+                <p>"The quality and diversity of products at woopy are impressive. I always find something new to love."</p>
+                <i class="fas fa-quote-right"></i>
+                <p>- John D.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 woopy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
